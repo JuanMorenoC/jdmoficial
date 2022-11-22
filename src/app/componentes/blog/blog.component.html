@@ -5,7 +5,7 @@
             <div class="card-body">
               <h3 class="card-title">SPRING BOOT FRAMEWORK y SPRING BOOT</h3>
               <img src="../../../assets/imagen/spring-framework.png" class="card-img-top" alt="...">
-              <p class="card-text">Es un framework Open Source que facilita la creación de aplicaciones de todo tipo en Java, Kotlin y Groovy.</p>
+              <p class="card-text">Es un framework Open Source que ayuda a crear aplicaciones en Java, Kotlin, Maven y Groovy.</p>
               <!-- Button trigger modal -->
               <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Mas información
@@ -31,46 +31,54 @@
       <div class="modal-body">
         <h3>SPRING BOOT FRAMEWORK</h3>
         <p>
-          Es un framework Open Source que facilita la creación de aplicaciones de todo tipo en Java, Kotlin y Groovy.
+          Es un framework Open Source que ayuda a crear aplicaciones en Java, Kotlin, Maven y Groovy.
         </p>
         <br>
         <p>
-          Si bien es cierto que, por lo que es más conocido es por la inyección de dependencias, Spring Framework está dividido en diversos módulos que podemos utilizar, ofreciéndonos muchas más funcionalidades:
+          La inyección de dependencias, es uno de los pilares que tiene Spring Framework, aunque está dividido en diferentes módulos dando buenas funcionalidades contributivas:
         </p>
         <br>
         <ul>
-          <li><span>Container:</span> proporciona inyección de dependencias e inversión de control.</li>
-          <li><span>Web:</span> nos permite crear controladores Web, tanto de vistas MVC como aplicaciones REST.</li>
-          <li><span>Acceso a datos:</span> abstracciones sobre JDBC, ORMs como Hibernate, sistemas OXM (Object XML Mappers), JSM y transacciones.</li>
-          <li><span>Programación orientada a Aspectos (AOP):</span> ofrece el soporte para aspectos.</li>
-          <li><span>Instrumentación:</span> proporciona soporte para la instrumentación de clases.</li>
-          <li><span>Pruebas de código:</span> contiene un framework de testing, con soporte para JUnit y TestNG y todo lo necesario para probar los mecanismos de Spring.</li>
+          <li><span>Container:</span> suministra la inyección de dependencias e inversión de control.</li>
+          <li><span>Web:</span> facilita la creación de controladores Web.</li>
+          <li><span>Acceso a datos:</span> gestiona sobre JDBC, ORMs como Hibernate, sistemas OXM (Object XML Mappers), JSM y transacciones.</li>
+          <li><span>Programación orientada a Aspectos (AOP):</span> da buen soporte para los aspectos.</li>
+          <li><span>Instrumentación:</span> ofrece un buen soporte para la instrumentación de clases.</li>
+          <li><span>Pruebas de código:</span> contiene un framework de testing, para JUnit y TestNG y lo que haga necesario para testear los mecanismos de Spring.</li>
         </ul>
         <br>
         <p>
-          Estos módulos son opcionales, por lo que podemos utilizar los que necesitemos sin tener que llenar nuestro classpath con clases que no vamos a usar.
+          Los módulos son opcionales, no es necesario llenar el classpath con clases que no se van a utilizar. Solo usa lo que debe usar.
         </p>
         <br>
         <img class="imagen-modulos" src="../../../assets/imagen/modulos-framework.png" alt="">
         <p>
-          Si bien es cierto que Spring Framework es muy potente, la configuración inicial y la preparación de las aplicaciones para producción son tareas bastante tediosas. Spring Boot simplifica el proceso al máximo gracias a sus dos principales mecanismos.
+          La configuración inicial y preparación de las aplicaciones diseñadas por medio de Spring Framework para producción son algo complejas. Pero Spring Boot simplifica el proceso por medio de dos principales mecanismos, para darle mayor provecho.
         </p>
         <br>
         <h3>SPRING BOOT</h3>
         <p>
-          Spring Boot permite compilar nuestras aplicaciones Web como un archivo .jar que podemos ejecutar como una aplicación Java normal (como alternativa a un archivo .war, que desplegaríamos en un servidor de aplicaciones como Tomcat).
+          Spring Boot permite compilar aplicaciones Web como un archivo .jar que se ejecuta normalmente como cualquier aplicativo.
         </p>
         <br>
         <p>
-          Esto lo consigue integrando el servidor de aplicaciones en el propio .jar y levantándolo cuando arrancamos la aplicación. De esta forma, podemos distribuir nuestras aplicaciones de una forma mucho más sencilla, al poder configurar el servidor junto con la aplicación. Esto también es muy útil en arquitecturas de microservicios, puesto que permite distribuir nuestras aplicaciones como imágenes Docker que podemos escalar horizontalmente (algo muy complicado con un .war).
+          Spring boot integra el servidor de aplicaciones en el propio .jar y despliega cuando se ejecuta la aplicación. Así se puede distribuir las aplicaciones de una forma más sencilla, configurando el servidor junto con la aplicación. Es bastante útil en arquitecturas de microservicios, ya que permite distribuir las aplicaciones como imágenes Docker que se puede escalar de manera horizontal.
         </p>
         <br>
         <p>
-          Spring Boot nos proporciona una serie de dependencias, llamadas starters, que podemos añadir a nuestro proyecto dependiendo de lo que necesitemos: crear un controlador REST, acceder a una base de datos usando JDBC, conectar con una cola de mensajes Apache ActiveMQ, etc.
+          Spring Boot ofrece una serie de dependencias, que se puede añadir a los proyectos, pero teniendo cuenta solo lo que se necesita: Se puede crear un controlador REST, acceder a una base de datos utilizando JDBC, conectar con una cola de mensajes Apache ActiveMQ, etc.
         </p>
         <br>
         <p>
-          Una vez añadimos un starter, éste nos proporciona todas las dependencias que necesitamos, tanto de Spring como de terceros. Además, los starters vienen configurados con valores por defecto, que pretenden minimizar la necesidad de configuración a la hora de desarrollar. Un buen ejemplo es el de spring-boot-starter-actuator: una vez que añadimos la dependencia, nuestra aplicación empezará a generar métricas tanto de la JVM como de la aplicación en sí (latencias, errores, etc).
+          Cuando se añade un starter, éste ofrece todas las dependencias necesarias, tanto de Spring como de los terceros. Además, los starters ya están configurados con valores por defecto, que reduce la configuración cuando se va a trabajar. El spring-boot-starter-actuator es un buen ejemplo que ayuda a añadir dependencias para los proyectos.          
+        </p>
+        <p>
+          Así como Spring Framework, se puede realizar cualquier configuración para modificar lo necesario posible.          
+        </p>
+        <br><br>        
+        <h3>Referencias</h3>
+        <p>
+          Pahino, R. (2020). ¿Qué son Spring framework y Spring Boot? Tu primer programa Java 
         </p>
       </div>
       <div class="modal-footer">

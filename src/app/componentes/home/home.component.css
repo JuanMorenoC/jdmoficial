@@ -16,6 +16,7 @@
     margin-top: 30px;
     width: 80%;
     color: rgb(0, 0, 0);
+    display: block;
 }
 
 .container{
@@ -60,4 +61,19 @@ span{
     margin-left: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.home3{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.home4{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.frase{
+    font-style: oblique;
+    font-weight: bold;
 }
