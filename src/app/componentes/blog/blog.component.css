@@ -35,3 +35,11 @@ span{
     margin-left: 100px;
     margin-right: 100px;
 }
+.imagenes-angular{
+    height: auto;
+    width: auto;
+    border-radius: 2%;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
