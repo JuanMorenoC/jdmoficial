@@ -8,6 +8,10 @@
 .card{
     margin-bottom: 3em;
 }
+.card-img-top{
+    width: 20.625em;
+    height: auto;
+}
 h3{
     font-weight: bold;
 }
@@ -47,4 +51,72 @@ span{
     border-radius: 2%;
     margin-top: 1.25em;
     margin-bottom: 1.25em;
+}
+
+/* Diseño para tabletas */ 
+@media screen and (min-width: 800px) {
+    .blog{
+        float: left;
+        margin-top: 5em;
+        margin-left: 1.875em;
+        margin-right: 1.875em;
+    }
+    .card{
+        max-width: 31.25em;
+        margin-bottom: 3em;
+    }
+    .card-img-top{
+        width: 24.375em;
+        height: auto;
+    }
+    h3{
+        font-weight: bold;
+        font-size: 1.8em;
+    }
+    .imagen-modulos{
+        height: auto;
+        width: 37.5em;
+        border-radius: 2%;
+        margin-top: 1.25em;
+        margin-left: 8.125em;
+        margin-bottom: 1.25em;
+    }
+    p{
+        text-align: justify;
+        font-size: 1.8em;
+        line-height: 1.2;
+    }
+    li{
+        text-align: justify;
+        font-size: 1.8em;
+        line-height: 1.2;
+    }
+    .listamodulo{
+        text-align: justify;
+        font-size: 1.8em;
+        line-height: 1.2;
+        font-weight: bold;
+    }
+    h1{
+        font-weight: bold;
+        font-size: 2em;
+    }
+    span{
+        font-weight: bold;
+    }
+    .modal-body{
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    .imagenes-angular{
+        height: auto;
+        width: 40.625em;
+        border-radius: 2%;
+        margin-top: 1.25em;
+        margin-left: 5em;
+        margin-bottom: 1.25em;
+    }
+    .btn{
+        font-size: 1.8em;
+    }
 }

@@ -40,3 +40,48 @@
 .tab-content{
   margin-bottom: 1.25em;
 }
+
+/* Diseño para tabletas */ 
+@media screen and (min-width: 800px) {
+  .nav {
+    float: none;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    width:100%;
+    justify-content: center;
+    height: 3.75em;
+    z-index: 100;
+    }
+  
+    .nav-link{
+      font-weight: bold;
+      font-size: 1.8em;
+    }
+  
+    /* unvisited link */
+  .nav-link:link {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* visited link */
+  .nav-link:visited {
+    color: green;
+    font-weight: bold;
+  }
+  
+  /* mouse over link */
+  .nav-link:hover {
+    color: rgb(136, 3, 197);
+    font-weight: bold;
+  }
+  
+  /* selected link */
+  .nav-link:active {
+    color: blue;
+    font-weight: bold;
+  }
+  .tab-content{
+    margin-bottom: 1.25em;
+  }
+}

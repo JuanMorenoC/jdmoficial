@@ -153,3 +153,168 @@ h3{
 p{
     font-size: 1em;
 }
+
+/* Diseño para tabletas */ 
+@media screen and (min-width: 800px) {
+    .home{
+        float: left;
+        margin-top: 3.125em;
+    }
+    .resumen{
+        float: none;
+        margin-top: 1.875em;
+        margin-left: 1.875em;
+        margin-right: 1.875em;
+    }
+    .resumen-texto{
+        float: left;
+        text-align: justify;
+        font-size: 1.25em;
+    
+    }
+    .resumen-foto{
+        float: right;
+        width: 50%;
+    }
+    .imagen-foto{
+        max-width: 100%;
+        height: auto;
+        margin-left: 1.25em;
+        border-radius: 2%;
+    }
+    .imagen-github{
+        height: 1.875em;
+        width: 1.875em;
+        border-radius: 2%;
+    }
+    .imagen-app{
+        height: 1.875em;
+        width: 1.875em;
+        border-radius: 2%;
+    }
+    .educacion{
+        margin-top: 3.125em;
+        margin-left: 1.875em;
+        margin-right: 1.875em;
+        text-align: justify;
+        font-size: larger;
+    }
+    .experiencia{
+        margin-top: 3.125em;
+        margin-left: 1.875em;
+        margin-right: 1.875em;
+        text-align: justify;
+        font-size: larger;
+    }
+    .proyectos{
+        margin-top: 3.125em;
+        margin-left: 1.875em;
+        margin-right: 1.875em;
+        text-align: justify;
+        font-size: larger;
+    }
+    .habilidades{
+        float: none;
+        margin-top: 3.125em;
+        margin-bottom: 5em;
+        margin-left: 1.875em;
+        margin-right: 1.875em;
+        text-align: justify;
+        font-size: larger;
+    }
+    .habilidades1{
+        float: left;
+        margin-top: 1.25em;
+        margin-bottom: 3.125em;
+        margin-left: 7.5em;
+        text-align: justify;
+        font-size: larger;
+    }
+    .habilidades1bajo{
+        float: right;
+        margin-top: 3.125em;
+        margin-bottom: 3.125em;
+        margin-right: 7.5em;
+        text-align: justify;
+        font-size: larger;
+    }
+    .habilidades2{
+        float: none;
+        margin-top: 0em;
+        margin-bottom: 0em;
+        text-align: justify;
+        font-size: larger;
+    }
+    .habilidades3{
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    .habilidades4{
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    .habilidades5{
+        margin-left: 0em;
+        margin-right: 1.875em;
+    }
+    .habilidades6{
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    .habilidades7{
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    .habilidades8{
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    .habilidades9{
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    .habilidades10{
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    .habilidades11{
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    .habilidades12{
+        margin-bottom: 3em;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    .habilidades13{
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    .habilidades14{
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    .habilidades15{
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    .habilidades16{
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    h1{
+        font-weight: bold;
+        font-size: 2em;
+    }
+    h2{
+        font-weight: bold;
+        font-size: 1.8em;
+    }
+    h3{
+        font-size: 1.5em;
+    }
+    p{
+        font-size: 1.5em;
+        line-height: 1.2;
+    }
+}

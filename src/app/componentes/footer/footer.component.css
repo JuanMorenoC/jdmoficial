@@ -22,7 +22,7 @@ h3{
 
 /* Diseño para tabletas */ 
 @media screen and (min-width: 800px) {
-	.footer {
+    .footer {
         float: none;
         position: fixed;
         align-items: center;
@@ -38,5 +38,8 @@ h3{
         width: 1.875em;
         border-radius: 2%;
         margin-left: 0.625em;
+    }
+    h3{
+        font-size: 1.8em;
     }
 }
