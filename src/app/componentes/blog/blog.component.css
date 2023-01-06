@@ -1,29 +1,35 @@
+/* Diseño para celulares */
 .blog{
-    display: block;
-    margin-top: 80px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-.blog1{
-    display: inline-flex;
-    margin-top: 50px;
+    float: none;
+    margin-top: 5em;
+    margin-left: 1.875em;
+    margin-right: 1.875em;
 }
 .card{
-    margin-right: 50px;
+    margin-bottom: 3em;
 }
 h3{
     font-weight: bold;
 }
 .imagen-modulos{
-    height: 400px;
-    width: 400px;
+    height: auto;
+    width: 23.125em;
     border-radius: 2%;
-    margin-left: 500px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
 }
 p{
     text-align: justify;
+    font-size: 1.25em;
+}
+li{
+    text-align: justify;
+    font-size: 1.25em;
+}
+.listamodulo{
+    text-align: justify;
+    font-size: 1.25em;
+    font-weight: bold;
 }
 h1{
     font-weight: bold;
@@ -32,14 +38,13 @@ span{
     font-weight: bold;
 }
 .modal-body{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 0em;
+    margin-right: 0em;
 }
 .imagenes-angular{
     height: auto;
-    width: auto;
+    width: 20.625em;
     border-radius: 2%;
-    margin-left: 100px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
 }

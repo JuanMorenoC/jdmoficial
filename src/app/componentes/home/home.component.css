@@ -1,144 +1,155 @@
+/* Diseño para celulares */
 .home{
-    display: block;
-    margin-top: 50px;
+    float: none;
+    margin-top: 3.125em;
 }
 .resumen{
-    display: inline-flex;
-    margin-top: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
+    float: none;
+    margin-top: 1.875em;
+    margin-left: 1.875em;
+    margin-right: 1.875em;
 }
 .resumen-texto{
-    display: block;
-    margin-left: 100px;
-    margin-right: 100px;
+    float: none;
     text-align: justify;
-    font-size: 20px;
+    font-size: 1.25em;
 
 }
 .resumen-foto{
-    margin-left: 100px;
-    margin-right: 100px;
+    width: auto;
 }
 .imagen-foto{
-    height: 200px;
-    width: 200px;
+    max-width: 100%;
+    height: auto;
     border-radius: 2%;
 }
 .imagen-github{
-    height: 30px;
-    width: 30px;
+    height: 1.875em;
+    width: 1.875em;
     border-radius: 2%;
 }
 .imagen-app{
-    height: 30px;
-    width: 30px;
+    height: 1.875em;
+    width: 1.875em;
     border-radius: 2%;
 }
 .educacion{
-    margin-top: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-top: 3.125em;
+    margin-left: 1.875em;
+    margin-right: 1.875em;
     text-align: justify;
     font-size: larger;
 }
 .experiencia{
-    margin-top: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-top: 3.125em;
+    margin-left: 1.875em;
+    margin-right: 1.875em;
     text-align: justify;
     font-size: larger;
 }
 .proyectos{
-    margin-top: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-top: 3.125em;
+    margin-left: 1.875em;
+    margin-right: 1.875em;
     text-align: justify;
     font-size: larger;
 }
 .habilidades{
-    display: inline-flex;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
+    float: none;
+    margin-top: 3.125em;
+    margin-bottom: 5em;
+    margin-left: 1.875em;
+    margin-right: 1.875em;
     text-align: justify;
     font-size: larger;
 }
 .habilidades1{
-    display: block;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    float: left;
+    margin-top: 1.25em;
+    margin-bottom: 3.125em;
+    text-align: justify;
+    font-size: larger;
+}
+.habilidades1bajo{
+    float: right;
+    margin-top: 3.125em;
+    margin-bottom: 3.125em;
     text-align: justify;
     font-size: larger;
 }
 .habilidades2{
-    display: inline-flex;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    float: none;
+    margin-top: 0em;
+    margin-bottom: 0em;
     text-align: justify;
     font-size: larger;
 }
 .habilidades3{
-    margin-left: 0px;
-    margin-right: 50px;
+    margin-left: 0em;
+    margin-right: 0em;
 }
 .habilidades4{
-    margin-left: 50px;
-    margin-right: 0px;
+    margin-left: 0em;
+    margin-right: 0em;
 }
 .habilidades5{
-    margin-left: 0px;
-    margin-right: 55px;
+    margin-left: 0em;
+    margin-right: 1.875em;
 }
 .habilidades6{
-    margin-left: 50px;
-    margin-right: 0px;
+    margin-left: 0em;
+    margin-right: 0em;
 }
 .habilidades7{
-    margin-left: 0px;
-    margin-right: 60px;
+    margin-left: 0em;
+    margin-right: 0em;
 }
 .habilidades8{
-    margin-left: 50px;
-    margin-right: 0px;
+    margin-left: 0em;
+    margin-right: 0em;
 }
 .habilidades9{
-    margin-left: 0px;
-    margin-right: 45px;
+    margin-left: 0em;
+    margin-right: 0em;
 }
 .habilidades10{
-    margin-left: 50px;
-    margin-right: 0px;
+    margin-left: 0em;
+    margin-right: 0em;
 }
 .habilidades11{
-    margin-left: 0px;
-    margin-right: 25px;
+    margin-left: 0em;
+    margin-right: 0em;
 }
 .habilidades12{
-    margin-left: 40px;
-    margin-right: 0px;
+    margin-bottom: 3em;
+    margin-left: 0em;
+    margin-right: 0em;
 }
 .habilidades13{
-    margin-left: 0px;
-    margin-right: 80px;
+    margin-left: 0em;
+    margin-right: 0em;
 }
 .habilidades14{
-    margin-left: 60px;
-    margin-right: 0px;
+    margin-left: 0em;
+    margin-right: 0em;
 }
 .habilidades15{
-    margin-left: 0px;
-    margin-right: 62px;
+    margin-left: 0em;
+    margin-right: 0em;
 }
 .habilidades16{
-    margin-left: 55px;
-    margin-right: 0px;
+    margin-left: 0em;
+    margin-right: 0em;
 }
 h1{
     font-weight: bold;
+}
+h2{
+    font-weight: bold;
+}
+h3{
+    font-size: 1em;
+}
+p{
+    font-size: 1em;
 }
