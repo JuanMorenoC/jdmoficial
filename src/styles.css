@@ -2,3 +2,9 @@
 /* Diseño para celulares */
 html, body { height: auto; }
 body { margin: 0; font-family: sans-serif }
+
+/* Diseño para tabletas */ 
+@media screen and (min-width: 800px) {
+    html, body { height: auto; }
+    body { margin: 0; font-family: sans-serif }
+}
