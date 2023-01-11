@@ -17,7 +17,7 @@
           <div class="card">
             <div class="card-body">
               <h3 class="card-title">ANGULAR V15</h3>
-              <img src="assets/imagen/angularv15.png" class="card-img-top" alt="..." style="width: 480px; height: 260px;">
+              <img src="assets/imagen/angularv15.png" class="card-img-top" alt="...">
               <p class="card-text">Lanzamiento de la nueva versión de Angular v15. ¿Que nos espera?</p>
               <!-- Button trigger modal -->
               <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal2">
@@ -125,7 +125,7 @@
         <br>
         <h3>¿Qué nos espera Angular v15?</h3>
         <ol>
-          <li><span>Aplicaciones sin módulos.</span></li>
+          <li class="listamodulo"><span>Aplicaciones sin módulos.</span></li>
           <br>
           <p>
             <span>Standalone Components:</span> en este trata de desarrollar aplicaciones sin necesidad de módulos. Angular tenía como uno de aquellos objetivos minimizar la dificultad de aprendizaje de este framework y los módulos tienen a dificultarse de entender al inicio. Ahora con esto se tiene una API más robusta para soportar la parte de los modulos. Esta característica mantiene las bases sólidas, arquitectura y buenas prácticas de Angular. Por ejemplo, con un solo archivo se podría correr una Angular App sin usar módulos, así:
@@ -133,7 +133,7 @@
           <br>
           <img class="imagenes-angular" src="assets/imagen/angularv15_foto1.JPG" alt="">
           <br>
-          <li><span>Lazy loading de componentes.</span></li>
+          <li class="listamodulo"><span>Lazy loading de componentes.</span></li>
           <br>
           <p>
             Con la nueva implementación de los <span>Standalone Components</span> se va a poder usar los Lazy loading directamente en componentes y no tienes que resolver la promesa de la importación dinámica, ya ahora se hace automáticamente. Por ejemplo:
@@ -141,7 +141,7 @@
           <br>
           <img class="imagenes-angular" src="assets/imagen/angularv15_foto2.JPG" alt="">
           <br>
-          <li><span>Mejoras en la carga de imágenes.</span></li>
+          <li class="listamodulo"><span>Mejoras en la carga de imágenes.</span></li>
           <br>
           <p>
             Se implementa una nueva directiva en Angular para mejorar la carga de las imágenes, la cual ayuda a reducir los tiempos de carga en un sitio web. Para usarla, se debe importar el módulo de <span>NgOptimizedImage</span>  en donde los quieres emplear y luego usa el attr <span>ngSrc</span> en tus imágenes, así:
@@ -149,7 +149,7 @@
           <br>
           <img class="imagenes-angular" src="assets/imagen/angularv15_foto3.JPG" alt="">
           <br>
-          <li><span>Guardianes de rutas como funciones.</span></li>
+          <li class="listamodulo"><span>Guardianes de rutas como funciones.</span></li>
           <br>
           <p>
             Los guardianes son usados en Angular para permisos al usuario en la aplicación basadas en las rutas, y ahora podemos usar funciones para dar acceso o no al usuario. A si podemos usarlo:
@@ -157,7 +157,7 @@
           <br>
           <img class="imagenes-angular" src="assets/imagen/angularv15_foto4.JPG" alt="">
           <br>
-          <li><span>Mejoras en el formato de errores.</span></li>
+          <li class="listamodulo"><span>Mejoras en el formato de errores.</span></li>
           <br>
           <p>
             Un desarrollador siempre hace “debugging” para analizar los errores. Por ejemplo, si tenemos el siguiente código:
@@ -171,7 +171,7 @@
           <br>
           <img class="imagenes-angular" src="assets/imagen/angularv15_foto6.JPG" alt="">
           <br>
-          <li><span>Angular material alienado con Material Design 3.</span></li>
+          <li class="listamodulo"><span>Angular material alienado con Material Design 3.</span></li>
           <br>
           <p>
             La librería <span>Angular Material</span> es una buena herramienta para el diseño de tus proyectos, ahora el nuevo cambio surge de que Google está haciendo una actualización a su sistema de diseño, lo cual liberó herramientas para Android, Flutter y Web en donde es más fácil que se pueda implementar y seguir sus guías. Actualmente, el equipo de <span>Angular Material</span> estará usando más directamente estas herramientas de Material Design, para facilitar el mantenimiento y además implementar este sistema de diseño de forma más correcta. Si se quiere actualizar a Angular 15 y usar Angular Material se deberá aplicar un comando extra a esto, que sería así:
@@ -183,13 +183,13 @@
           <span>ng generate @angular/material:mdc-migration</span>
           </p>
           <br>
-          <li><span>Nueva utilidad en Angular CDK.</span></li>
+          <li class="listamodulo"><span>Nueva utilidad en Angular CDK.</span></li>
           <br>
           <p>
             El Angular CDK es un conjunto de herramientas para comportamientos de UI, en donde se puede ahorrar muchas líneas de código haciendo comportamientos como un Drag and Drop, Modales, Overlays pero se realiza su propio estilo visual. Al usar <span>@angular/cdk/listbox</span>, obtienes todos los comportamientos esperados de una lista.
           </p>
           <br>
-          <li><span>Construcciones más rápidas con ESBuild.</span></li>
+          <li class="listamodulo"><span>Construcciones más rápidas con ESBuild.</span></li>
           <br>
           <p>
             Mejoraron el soporte a ESBuild, y con esto se puede correr comandos como <span>ng build</span> que tardan menos tiempo y hasta se puedes hacer livereload con <span>ng build –watch.</span> Esto se puede habilitar cambiando en el archivo <span>angular.json</span> lo siguiente:
@@ -198,7 +198,7 @@
             <span>"builder": "@angular-devkit/build-angular:browser-esbuild"</span>
           </p>
           <br>
-          <li><span>Menos archivos menos estrés.</span></li>
+          <li class="listamodulo"><span>Menos archivos menos estrés.</span></li>
           <br>
           <p>
             Ahora con la nueva versión trae menos archivos. Esta sería la diferencia entre la v14 y la v15.
@@ -210,7 +210,7 @@
             Angular manejara las configuraciones por si mismas sin la interactuación del programador y algunos archivos desaparecen totalmente, aunque hay algunos que se pueden habilitar.
           </p>
           <br>
-          <li><span>Herramienta de testing para e2e a tu elección.</span></li>
+          <li class="listamodulo"><span>Herramienta de testing para e2e a tu elección.</span></li>
           <br>
           <p>
             Actualmente en la industria hay herramientas que están haciendo un gran trabajo para las pruebas, pero ahora Angular te da a elegir a tu elección la herramienta que prefieras usar al correr el comando <span>ng e2e.</span>
