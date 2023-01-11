@@ -1,10 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
 /* Diseño para celulares */
 html, body { height: auto; }
 body { margin: 0; font-family: sans-serif }
 
 /* Diseño para tabletas */ 
-@media screen and (min-width: 800px) {
+@media (min-width: 767.98px) {
     html, body { height: auto; }
     body { margin: 0; font-family: sans-serif }
 }
+
+/* Diseño para PC */ 
+@media (min-width: 991.98px) {
+    html, body { height: 100%; }
+    body { margin: 0; font-family: sans-serif }
+}
+@media (min-width: 1199.98px) {
+    html, body { height: 100%; }
+    body { margin: 0; font-family: sans-serif }
+}
+

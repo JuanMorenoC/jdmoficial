@@ -54,7 +54,7 @@ span{
 }
 
 /* Diseño para tabletas */ 
-@media screen and (min-width: 800px) {
+@media (min-width: 767.98px) {
     .blog{
         float: left;
         margin-top: 5em;
@@ -118,5 +118,112 @@ span{
     }
     .btn{
         font-size: 1.8em;
+    }
+}
+/* Diseño para PC */ 
+@media (min-width: 991.98px) {
+    .blog{
+        display: block;
+        margin-top: 80px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .blog1{
+        display: inline-flex;
+        margin-top: 50px;
+    }
+    .card{
+        margin-right: 50px;
+        max-width: 700px;
+        margin-bottom: 150px;
+    }
+    .card-img-top{
+        width: 480px;
+        height: auto;
+    }
+    h3{
+        font-weight: bold;
+    }
+    .imagen-modulos{
+        height: 400px;
+        width: 400px;
+        border-radius: 2%;
+        margin-left: 360px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    p{
+        text-align: justify;
+    }
+    h1{
+        font-weight: bold;
+    }
+    span{
+        font-weight: bold;
+    }
+    .modal-body{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .imagenes-angular{
+        height: auto;
+        width: auto;
+        border-radius: 2%;
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 1199.98px) {
+    .blog{
+        display: block;
+        margin-top: 80px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .blog1{
+        display: inline-flex;
+        margin-top: 50px;
+    }
+    .card{
+        margin-right: 50px;
+        max-width: 700px;
+        margin-bottom: 150px;
+    }
+    .card-img-top{
+        width: 480px;
+        height: auto;
+    }
+    h3{
+        font-weight: bold;
+    }
+    .imagen-modulos{
+        height: 400px;
+        width: 400px;
+        border-radius: 2%;
+        margin-left: 360px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    p{
+        text-align: justify;
+    }
+    h1{
+        font-weight: bold;
+    }
+    span{
+        font-weight: bold;
+    }
+    .modal-body{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .imagenes-angular{
+        height: auto;
+        width: auto;
+        border-radius: 2%;
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
