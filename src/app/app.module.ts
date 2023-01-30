@@ -9,8 +9,6 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { HomeComponent } from './componentes/home/home.component';
 import { BlogComponent } from './componentes/blog/blog.component';
-import { AboutComponent } from './componentes/about/about.component';
-import { BloggersComponent } from './componentes/bloggers/bloggers.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 
 @NgModule({
@@ -18,8 +16,6 @@ import { FooterComponent } from './componentes/footer/footer.component';
     AppComponent,
     HomeComponent,
     BlogComponent,
-    AboutComponent,
-    BloggersComponent,
     FooterComponent
   ],
   imports: [
