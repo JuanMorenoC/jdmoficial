@@ -145,8 +145,8 @@ span{
         font-weight: bold;
     }
     .imagen-modulos{
-        height: 400px;
-        width: 400px;
+        height: auto;
+        width: auto;
         border-radius: 2%;
         margin-left: 360px;
         margin-top: 20px;
@@ -198,8 +198,8 @@ span{
         font-weight: bold;
     }
     .imagen-modulos{
-        height: 400px;
-        width: 400px;
+        height: auto;
+        width: auto;
         border-radius: 2%;
         margin-left: 360px;
         margin-top: 20px;
