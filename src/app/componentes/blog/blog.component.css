@@ -33,7 +33,7 @@ li{
 .listamodulo{
     text-align: justify;
     font-size: 1.25em;
-    font-weight: bold;
+    font-weight: normal;
 }
 h1{
     font-weight: bold;
@@ -47,13 +47,13 @@ span{
 }
 .imagenes-angular{
     height: auto;
-    width: 20.625em;
+    width: 24.625em;
     border-radius: 2%;
     margin-top: 1.25em;
     margin-bottom: 1.25em;
 }
 
-/* Diseño para tabletas */ 
+/* Diseño para tabletas */
 @media (min-width: 767.98px) {
     .blog{
         float: left;
@@ -110,7 +110,7 @@ span{
     }
     .imagenes-angular{
         height: auto;
-        width: 40.625em;
+        width: 50.625em;
         border-radius: 2%;
         margin-top: 1.25em;
         margin-left: 5em;
@@ -120,7 +120,7 @@ span{
         font-size: 1.8em;
     }
 }
-/* Diseño para PC */ 
+/* Diseño para PC */
 @media (min-width: 991.98px) {
     .blog{
         display: block;
@@ -167,7 +167,7 @@ span{
     }
     .imagenes-angular{
         height: auto;
-        width: auto;
+        width: 900px;
         border-radius: 2%;
         margin-left: 100px;
         margin-top: 20px;
@@ -220,7 +220,7 @@ span{
     }
     .imagenes-angular{
         height: auto;
-        width: auto;
+        width: 900px;
         border-radius: 2%;
         margin-left: 100px;
         margin-top: 20px;

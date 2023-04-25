@@ -16,9 +16,9 @@
         <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
-              <h3 class="card-title">ANGULAR V15</h3>
-              <img src="assets/imagen/angularv15.png" class="card-img-top" alt="...">
-              <p class="card-text">Lanzamiento de la nueva versión de Angular v15. ¿Que nos espera?</p>
+              <h3 class="card-title">INTEGRACIÓN CONTINUA</h3>
+              <img src="assets/imagen/ICPRINCIPAL.png" class="card-img-top" alt="...">
+              <p class="card-text">¿Que es integración continua?</p>
               <!-- Button trigger modal -->
               <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                 Mas información
@@ -78,7 +78,7 @@
         </p>
         <br>
         <img class="imagen-modulos" src="assets/imagen/am_imagen6.PNG" alt="">
-        <br><br>        
+        <br><br>
         <h3>Referencias</h3>
         <p>
           Angular Material (2023). Getting Started with Angular Material
@@ -96,125 +96,31 @@
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title" id="exampleModalLabel">ANGULAR</h1>
+        <h1 class="modal-title" id="exampleModalLabel">INTEGRACIÓN CONTINUA</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <h3>Angular v15</h3>
+        <h3>Integración Continua</h3>
         <p>
-          Se viene otra versión de Angular, hace 6 meses salió la versión 14 y se veía cosas que cada vez mas nutria a Angular, para seguir proporcionando a los programadores más mejoras en las funcionalidades que puedan ayudar en sus proyectos.
+          Es una de las buenas prácticas dentro de la ingeniería de software donde los desarrolladores mezclan los cambios en el código en un repositorio principal de forma periódica, donde se ejecutan versiones. La integración continua hace referencia a la fase de integración del proceso de publicación de software y un componente cultural. Los objetivos consisten en encontrar y arreglar errores, mejorar la calidad del software y reducir el tiempo para bla validación y publicación de las actualizaciones de software.
         </p>
         <br>
-        <h3>¿Cómo puedo actualizar a la versión 15?</h3>
         <p>
-          Con el comando ng update es la forma mas sencilla de hacerlo, pero como obviamente se necesita especificar la versión, entonces se hace por medio del siguiente comando:
-        </p>
-        <p>
-          <span>ng update @angular/core@15 @angular/cli@15</span>
-        </p>
-        <p>
-          Ahora a tener en cuenta que, si estás trabajando en una versión mas antigua en tus proyectos, deberás actualizarlo gradualmente hasta llegar a la versión 15, es decir, si estas trabajando en la versión 12, entonces debes pasar primero a la v13, luego a la v14, y por último a la v15. Para esto también sirve el anterior comando, solo que vas especificando la versión a la que vas actualizar y volverlo hacer hasta llegar a la actual versión 15.
+          Los desarrolladores envían los cambios de forma periódica en un control de versiones como GIT, para subirlos o hacer push a un repositorio. La integración continua crea y ejecuta automáticamente pruebas para evaluar y verificar los nuevos cambios realizados en el código, con esto previenen cualquier error que contenga el código.
         </p>
         <br>
-        <h3>¿Qué nos espera Angular v15?</h3>
+        <img class="imagenes-angular" src="assets/imagen/IC.png" alt="">
+        <br>
+        <h3>Ventajas</h3>
         <ol>
-          <li class="listamodulo"><span>Aplicaciones sin módulos.</span></li>
-          <br>
-          <p>
-            <span>Standalone Components:</span> en este trata de desarrollar aplicaciones sin necesidad de módulos. Angular tenía como uno de aquellos objetivos minimizar la dificultad de aprendizaje de este framework y los módulos tienen a dificultarse de entender al inicio. Ahora con esto se tiene una API más robusta para soportar la parte de los modulos. Esta característica mantiene las bases sólidas, arquitectura y buenas prácticas de Angular. Por ejemplo, con un solo archivo se podría correr una Angular App sin usar módulos, así:
-          </p>
-          <br>
-          <img class="imagenes-angular" src="assets/imagen/angularv15_foto1.JPG" alt="">
-          <br>
-          <li class="listamodulo"><span>Lazy loading de componentes.</span></li>
-          <br>
-          <p>
-            Con la nueva implementación de los <span>Standalone Components</span> se va a poder usar los Lazy loading directamente en componentes y no tienes que resolver la promesa de la importación dinámica, ya ahora se hace automáticamente. Por ejemplo:
-          </p>
-          <br>
-          <img class="imagenes-angular" src="assets/imagen/angularv15_foto2.JPG" alt="">
-          <br>
-          <li class="listamodulo"><span>Mejoras en la carga de imágenes.</span></li>
-          <br>
-          <p>
-            Se implementa una nueva directiva en Angular para mejorar la carga de las imágenes, la cual ayuda a reducir los tiempos de carga en un sitio web. Para usarla, se debe importar el módulo de <span>NgOptimizedImage</span>  en donde los quieres emplear y luego usa el attr <span>ngSrc</span> en tus imágenes, así:
-          </p>
-          <br>
-          <img class="imagenes-angular" src="assets/imagen/angularv15_foto3.JPG" alt="">
-          <br>
-          <li class="listamodulo"><span>Guardianes de rutas como funciones.</span></li>
-          <br>
-          <p>
-            Los guardianes son usados en Angular para permisos al usuario en la aplicación basadas en las rutas, y ahora podemos usar funciones para dar acceso o no al usuario. A si podemos usarlo:
-          </p>
-          <br>
-          <img class="imagenes-angular" src="assets/imagen/angularv15_foto4.JPG" alt="">
-          <br>
-          <li class="listamodulo"><span>Mejoras en el formato de errores.</span></li>
-          <br>
-          <p>
-            Un desarrollador siempre hace “debugging” para analizar los errores. Por ejemplo, si tenemos el siguiente código:
-          </p>
-          <br>
-          <img class="imagenes-angular" src="assets/imagen/angularv15_foto5.JPG" alt="">
-          <br>
-          <p>
-            Ahora en la versión 15 la información es más resumida y te indica dónde se produce el error de forma más precisa. Así se vería:
-          </p>
-          <br>
-          <img class="imagenes-angular" src="assets/imagen/angularv15_foto6.JPG" alt="">
-          <br>
-          <li class="listamodulo"><span>Angular material alienado con Material Design 3.</span></li>
-          <br>
-          <p>
-            La librería <span>Angular Material</span> es una buena herramienta para el diseño de tus proyectos, ahora el nuevo cambio surge de que Google está haciendo una actualización a su sistema de diseño, lo cual liberó herramientas para Android, Flutter y Web en donde es más fácil que se pueda implementar y seguir sus guías. Actualmente, el equipo de <span>Angular Material</span> estará usando más directamente estas herramientas de Material Design, para facilitar el mantenimiento y además implementar este sistema de diseño de forma más correcta. Si se quiere actualizar a Angular 15 y usar Angular Material se deberá aplicar un comando extra a esto, que sería así:
-          </p>
-          <p>
-          <span>ng update @angular/core@15 @angular/cli@15</span>
-          </p>
-          <p>
-          <span>ng generate @angular/material:mdc-migration</span>
-          </p>
-          <br>
-          <li class="listamodulo"><span>Nueva utilidad en Angular CDK.</span></li>
-          <br>
-          <p>
-            El Angular CDK es un conjunto de herramientas para comportamientos de UI, en donde se puede ahorrar muchas líneas de código haciendo comportamientos como un Drag and Drop, Modales, Overlays pero se realiza su propio estilo visual. Al usar <span>@angular/cdk/listbox</span>, obtienes todos los comportamientos esperados de una lista.
-          </p>
-          <br>
-          <li class="listamodulo"><span>Construcciones más rápidas con ESBuild.</span></li>
-          <br>
-          <p>
-            Mejoraron el soporte a ESBuild, y con esto se puede correr comandos como <span>ng build</span> que tardan menos tiempo y hasta se puedes hacer livereload con <span>ng build –watch.</span> Esto se puede habilitar cambiando en el archivo <span>angular.json</span> lo siguiente:
-          </p>
-          <p>
-            <span>"builder": "@angular-devkit/build-angular:browser-esbuild"</span>
-          </p>
-          <br>
-          <li class="listamodulo"><span>Menos archivos menos estrés.</span></li>
-          <br>
-          <p>
-            Ahora con la nueva versión trae menos archivos. Esta sería la diferencia entre la v14 y la v15.
-          </p>
-          <br>
-          <img class="imagenes-angular" src="assets/imagen/angularv15_foto7.JPG" alt="">
-          <br>
-          <p>
-            Angular manejara las configuraciones por si mismas sin la interactuación del programador y algunos archivos desaparecen totalmente, aunque hay algunos que se pueden habilitar.
-          </p>
-          <br>
-          <li class="listamodulo"><span>Herramienta de testing para e2e a tu elección.</span></li>
-          <br>
-          <p>
-            Actualmente en la industria hay herramientas que están haciendo un gran trabajo para las pruebas, pero ahora Angular te da a elegir a tu elección la herramienta que prefieras usar al correr el comando <span>ng e2e.</span>
-          </p>
-          <br>
-          <img class="imagenes-angular" src="assets/imagen/angularv15_foto8.JPG" alt="">
+          <li class="listamodulo">Mejorar la productividad del equipo de desarrollo de software.</li>
+          <li class="listamodulo">Encontrar y arreglar posibles errores que probablemente generen problemas gravísimos.</li>
+          <li class="listamodulo">Actualizar con mayor frecuencia y mejor eficacia el producto al cliente.</li>
         </ol>
-        <br><br>        
+        <br><br>
         <h3>Referencias</h3>
         <p>
-          nicobytes (2022). 10 novedades en Angular v15 que no te puedes perder. Platzi.com
+          AWS AMAZON (2023). ¿Qué es la integración continua?. aws.amazon.com
         </p>
       </div>
       <div class="modal-footer">
